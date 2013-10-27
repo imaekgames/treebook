@@ -8,7 +8,30 @@
 </head>
 <body>
 
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+		<div class="navbar-inner">
+
+			<div class="container">
+
+				<a href="#" class="navbar-brand">Treebook</a>
+
+				<ul class="nav nav-pills">
+				  <li><a><%= link_to "All Statuses", statuses_path %></a></li>
+				</ul>
+
+			</div>
+
+		</div>
+
+	</nav>
+
+			<div class="container">
+
 <%= yield %>
+
+			</div>
+
 
 </body>
 </html>
